@@ -1,5 +1,5 @@
 # matanza2
-==
+```ruby
 Matanza2.configure do |config|
   config[:github_user] = 'YOUR_GITHUB_USER'
   config[:github_repo] = 'REPOSITORY_NAME'
@@ -16,7 +16,9 @@ Matanza2.configure do |config|
   config[:trello_user_name] = 'YOUR_TRELLO_USER'
   config[:trello_board_name] = 'BOARD_NAME'
 end
+```
 ==
+
 Matanza2 - Automated Git and Trello Workflow
 
 Use those scripts to create automatically branchs associated with issues and tracked commits.
