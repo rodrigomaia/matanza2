@@ -5,7 +5,7 @@ Matanza2.configure do |config|
   config[:github_repo] = 'REPOSITORY_NAME'
   
   # https://github.com/settings/applications
-	# Personal access tokens
+  # Personal access tokens
   config[:github_oauth_token] = 'PERSONAL_ACCESS_TOKENS'
   
   # https://trello.com/app-key
